@@ -35,7 +35,7 @@ private int softDrink;
   }
 
   public double ticket(){
-    if (gender == 'f'){
+    if (gender == 'M'){
      
         return 8.0;
 
@@ -50,6 +50,38 @@ private int softDrink;
 
     return feeding() + couver() + ticket();
 
+  }
+
+  public char getGender() {
+    return gender;
+  }
+
+  public void setGender(char gender) {
+    this.gender = gender;
+  }
+
+  public int getBeer() {
+    return beer;
+  }
+
+  public void setBeer(int beer) {
+    this.beer = beer;
+  }
+
+  public int getBarbecue() {
+    return barbecue;
+  }
+
+  public void setBarbecue(int barbecue) {
+    this.barbecue = barbecue;
+  }
+
+  public int getSoftDrink() {
+    return softDrink;
+  }
+
+  public void setSoftDrink(int softDrink) {
+    this.softDrink = softDrink;
   }
     
   }
