@@ -35,7 +35,7 @@ private int softDrink;
   }
 
   public double ticket(){
-    if (gender == 'M'){
+    if (gender == 'M' || gender == 'm'){
      
         return 8.0;
 
